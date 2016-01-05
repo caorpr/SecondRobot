@@ -1,6 +1,5 @@
 package bot.controller;
 
-import bot.model.RobotController;
 
 public class ClaytoniRunner {
 
