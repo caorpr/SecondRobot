@@ -38,7 +38,7 @@ public class EV3Bot
 		this.waitTime = 4000;
 		
 		distanceSensor = new EV3UltrasonicSensor(LocalEV3.get().getPort("S1"));
-		//backTouch = new EV3TouchSensor(LocalEV3.get().getPort("S2"));
+		backTouch = new EV3TouchSensor(LocalEV3.get().getPort("S2"));
 		
 		
 		
@@ -52,7 +52,9 @@ public class EV3Bot
 	
 	private void setupDistanceArray()
 	{
-		
+		roomDistance[0] = (12 * 2.54 * 3);
+		roomDistance[1] = (12 * 254 * 10.5);
+		//random stuff from Mr. H!
 	}
 	
 	
