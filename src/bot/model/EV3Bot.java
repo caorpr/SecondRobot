@@ -66,6 +66,14 @@ public class EV3Bot
 	}
 	
 	
+	
+	
+	
+	
+	
+	
+	
+	
 	public void driveRoom()
 	{
 		ultrasonicSamples = new float [distanceSensor.sampleSize()];
@@ -74,10 +82,19 @@ public class EV3Bot
 		{
 			displayMessage("Short Drive");
 			
+			 
+			
 		}
 		
 		botPilot.travel(254.12);
 	}
+	
+	
+	
+	
+	
+	
+	
 	
 	public void start()
 	{
