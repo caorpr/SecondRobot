@@ -97,8 +97,6 @@ public class EV3Bot
 	
 	
 	
-	
-	
 	public void start()
 	{
 		LCD.drawString(botMessage, xPosition, yPosition);
