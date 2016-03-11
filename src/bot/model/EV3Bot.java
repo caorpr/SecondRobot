@@ -26,6 +26,7 @@ public class EV3Bot
 	
 	private MovePilot botPilot;
 	private EV3UltrasonicSensor distanceSensor;
+	private EV3TouchSensor backTouch;
 	
 	private float [] ultrasonicSamples;
 	
