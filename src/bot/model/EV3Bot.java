@@ -53,8 +53,8 @@ public class EV3Bot
 	
 	private void setupDistanceArray()
 	{
-		roomDistance[0] = (12 * 2.54 * 3);
-		roomDistance[1] = (12 * 254 * 10.5);
+		//roomDistance[0] = (12 * 2.54 * 3);
+		//roomDistance[1] = (12 * 254 * 10.5);
 		//random stuff from Mr. H!
 	}
 	
@@ -67,8 +67,6 @@ public class EV3Bot
 		Chassis baseChassis = new WheeledChassis(new Wheel []{leftWheel, rightWheel}, WheeledChassis.TYPE_DIFFERENTIAL);
 		botPilot = new MovePilot(baseChassis);
 	}
-	
-	
 	
 	
 	
@@ -90,6 +88,8 @@ public class EV3Bot
 		}
 		
 		botPilot.travel(254.12);
+		botPilot.rotateLeft();
+		botPilot.rotateRight();
 	}
 	
 	
